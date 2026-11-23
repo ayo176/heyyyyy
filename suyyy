@@ -1,0 +1,34 @@
+# COS 101 - Physics Equations with Functions
+
+def equation1_velocity():
+    u = float(input("Enter u (initial velocity): "))
+    a = float(input("Enter a (acceleration): "))
+    t = float(input("Enter t (time): "))
+    v = u + a*t
+    print(f"v = u + at = {v}")
+
+def equation2_distance():
+    u = float(input("Enter u: "))
+    a = float(input("Enter a: "))
+    t = float(input("Enter t: "))
+    s = u*t + 0.5*a*t**2
+    print(f"s = ut + 0.5at^2 = {s}")
+
+def equation3_force():
+    m = float(input("Enter m (mass): "))
+    a = float(input("Enter a: "))
+    F = m*a
+    print(f"F = ma = {F}")
+
+def equation4_kinetic():
+    m = float(input("Enter m: "))
+    v = float(input("Enter v: "))
+    ke = 0.5*m*v**2
+    print(f"KE = 0.5mv^2 = {ke}")
+
+def equation5_potential():
+    m = float(input("Enter m: "))
+    g = float(input("Enter g (9.8): "))
+    h = float(input("Enter h (height): "))
+    pe = m*g*h
+    print(f"PE = mgh = {pe}")
